@@ -38,7 +38,9 @@ public class Main extends JFrame {
         JPanel panel = new JPanel();
 
         JComboBox<String> algoSelector = new JComboBox<>(new String[]{
-                "Bubble Sort"
+                "Bubble Sort", "Merge Sort", "Insertion Sort", "Selection Sort", "Quick Sort",
+                "Heap Sort", "Shell Sort", "Counting Sort", "Radix Sort", "Tim Sort",
+                "Cocktail Shaker Sort", "Gnome Sort", "Bogo Sort"
         });
 
         JButton startBtn = new JButton("Start");
@@ -65,6 +67,18 @@ public class Main extends JFrame {
             String sel = (String) algoSelector.getSelectedItem();
             switch (sel) {
                 case "Bubble Sort" -> currentAlgorithm = new BubbleSort();
+                case "Merge Sort" -> currentAlgorithm = new MergeSort();
+                case "Insertion Sort" -> currentAlgorithm = new InsertionSort();
+                case "Selection Sort" -> currentAlgorithm = new SelectionSort();
+                case "Quick Sort" -> currentAlgorithm = new QuickSort();
+                case "Heap Sort" -> currentAlgorithm = new HeapSort();
+                case "Shell Sort" -> currentAlgorithm = new ShellSort();
+                case "Counting Sort" -> currentAlgorithm = new CountingSort();
+                case "Radix Sort" -> currentAlgorithm = new RadixSort();
+                case "Tim Sort" -> currentAlgorithm = new TimSort();
+                case "Cocktail Shaker Sort" -> currentAlgorithm = new CocktailShakerSort();
+                case "Gnome Sort" -> currentAlgorithm = new GnomeSort();
+                case "Bogo Sort" -> currentAlgorithm = new BogoSort();
             }
         });
 
