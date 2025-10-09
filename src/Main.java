@@ -69,9 +69,9 @@ public class Main extends JFrame {
                 case "Bubble Sort" -> currentAlgorithm = new BubbleSort();
                 case "Merge Sort" -> currentAlgorithm = new MergeSort();
                 case "Insertion Sort" -> currentAlgorithm = new InsertionSort();
-                // case "Selection Sort" -> currentAlgorithm = new SelectionSort();
+                case "Selection Sort" -> currentAlgorithm = new SelectionSort();
                 case "Quick Sort" -> currentAlgorithm = new QuickSort();
-                // case "Heap Sort" -> currentAlgorithm = new HeapSort();
+                case "Heap Sort" -> currentAlgorithm = new HeapSort();
                 // case "Shell Sort" -> currentAlgorithm = new ShellSort();
                 // case "Counting Sort" -> currentAlgorithm = new CountingSort();
                 // case "Radix Sort" -> currentAlgorithm = new RadixSort();
