@@ -73,7 +73,7 @@ public class Main extends JFrame {
                 case "Quick Sort" -> currentAlgorithm = new QuickSort();
                 case "Heap Sort" -> currentAlgorithm = new HeapSort();
                 case "Shell Sort" -> currentAlgorithm = new ShellSort();
-                // case "Counting Sort" -> currentAlgorithm = new CountingSort();
+                case "Counting Sort" -> currentAlgorithm = new CountingSort();
                 // case "Radix Sort" -> currentAlgorithm = new RadixSort();
                 // case "Tim Sort" -> currentAlgorithm = new TimSort();
                 // case "Cocktail Shaker Sort" -> currentAlgorithm = new CocktailShakerSort();
