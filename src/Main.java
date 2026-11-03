@@ -75,7 +75,7 @@ public class Main extends JFrame {
                 case "Shell Sort" -> currentAlgorithm = new ShellSort();
                 case "Counting Sort" -> currentAlgorithm = new CountingSort();
                 // case "Radix Sort" -> currentAlgorithm = new RadixSort();
-                // case "Tim Sort" -> currentAlgorithm = new TimSort();
+                case "Tim Sort" -> currentAlgorithm = new TimSort();
                 // case "Cocktail Shaker Sort" -> currentAlgorithm = new CocktailShakerSort();
                 // case "Gnome Sort" -> currentAlgorithm = new GnomeSort();
                 case "Bogo Sort" -> currentAlgorithm = new BogoSort();
