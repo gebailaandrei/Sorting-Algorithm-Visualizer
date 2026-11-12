@@ -1,6 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-import java.util.Arrays;
 import java.util.Random;
 
 public class Main extends JFrame {
@@ -76,8 +75,8 @@ public class Main extends JFrame {
                 case "Counting Sort" -> currentAlgorithm = new CountingSort();
                 case "Radix Sort" -> currentAlgorithm = new RadixSort();
                 case "Tim Sort" -> currentAlgorithm = new TimSort();
-                // case "Cocktail Shaker Sort" -> currentAlgorithm = new CocktailShakerSort();
-                // case "Gnome Sort" -> currentAlgorithm = new GnomeSort();
+                case "Cocktail Shaker Sort" -> currentAlgorithm = new CocktailShakerSort();
+                case "Gnome Sort" -> currentAlgorithm = new GnomeSort();
                 case "Bogo Sort" -> currentAlgorithm = new BogoSort();
             }
         });
